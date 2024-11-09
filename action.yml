@@ -1,4 +1,5 @@
 name: Github Webhook Action
+description: Post action results to api endpoint
 author: YeouidoPartners
 
 inputs:
