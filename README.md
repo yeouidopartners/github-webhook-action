@@ -7,3 +7,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 This project may contain the follwing open source software:
 
 - [slack-github-action](https://github.com/slackapi/slack-github-action)
+- [action-slack](https://github.com/8398a7/action-slack)
