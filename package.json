@@ -1,0 +1,25 @@
+{
+  "name": "github-webhook-action",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && ncc build lib/index.js"
+  },
+  "keywords": [],
+  "author": "YeouidoPartners",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@vercel/ncc": "^0.38.2",
+    "axios": "^1.7.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeouidopartners/github-webhook-action.git"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}

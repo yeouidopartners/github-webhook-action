@@ -1,0 +1,15 @@
+name: Github Webhook Action
+author: YeouidoPartners
+
+inputs:
+  message:
+    description: "Message to send"
+    required: true
+
+runs:
+  using: node16
+  main: dist/index.js
+
+branding:
+  icon: "activity"
+  color: "green"
